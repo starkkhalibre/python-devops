@@ -1,0 +1,11 @@
+services:
+  jupyter:
+    build: .
+    container_name: python-devops-jupyter
+    ports:
+      - "127.0.0.1:${JUPYTER_PORT:-8888}:8888"
+    volumes:
+      - .:/workspace
+    environment:
+      - JUPYTER_TOKEN=${JUPYTER_TOKEN:-}
+    restart: unless-stopped

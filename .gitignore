@@ -1,0 +1,15 @@
+.commandcode
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python / venv / tests
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Secrets
+.env
+*.secrets

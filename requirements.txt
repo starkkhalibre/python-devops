@@ -1,0 +1,10 @@
+jupyterlab>=4.2,<5
+ipykernel>=6.29,<7
+pytest>=8.0,<9
+nbval>=0.11,<1
+pyyaml>=6.0,<7
+cryptography>=43.0,<46
+click>=8.1,<9
+flask>=3.0,<4
+prometheus-client>=0.21,<1
+requests>=2.32,<3
